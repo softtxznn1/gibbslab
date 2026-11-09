@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/gibbslab/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f6f1" />
+    <script>
+      // A raiz abre a documentação; /documentacao e /simulador renderizam normalmente.
+      if (location.pathname === "/gibbslab/" || location.pathname === "/gibbslab/index.html") {
+        location.replace("/gibbslab/documentacao/" + location.hash);
+      }
+    </script>
+    <meta
+      name="description"
+      content="Simule a energia livre de Gibbs: ajuste ΔH, ΔS e T, analise o equilíbrio e consulte a documentação do modelo termodinâmico."
+    />
+    <title>GibbsLab — Simulador de Gibbs</title>
+    <script type="module" crossorigin src="/gibbslab/assets/index-DVhl0NEA.js"></script>
+    <link rel="stylesheet" crossorigin href="/gibbslab/assets/index-C_ZsdhP-.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
